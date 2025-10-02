@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <div class="">Hello aahahahah</div>
+  <nav>
+    <RouterLink to="/login">Login</RouterLink>
+  </nav>
+  <RouterView />
 </template>
-
-<style scoped></style>
+<style scoped lang="scss"></style>
